@@ -1,0 +1,135 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 149747000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionsApi.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Recupera info servidor",
+        "description": "",
+        "id": "buscar-info-servicio;recupera-info-servidor;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6618179800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "El 1 en una base datos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 3
+                }
+              ],
+              "location": "StepDefinitionsApi.idBase(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1293898200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Valido \"A New Hope\" y 4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "A New Hope",
+                  "offset": 8
+                },
+                {
+                  "val": "4",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinitionsApi.validoTituloEpisodio(String,int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5038300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionsApi.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Recupera info servidor",
+        "description": "",
+        "id": "buscar-info-servicio;recupera-info-servidor;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 628657100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "El 5 en una base datos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 3
+                }
+              ],
+              "location": "StepDefinitionsApi.idBase(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 96485200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Valido \"Attack of the Clones\" y 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Attack of the Clones",
+                  "offset": 8
+                },
+                {
+                  "val": "2",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefinitionsApi.validoTituloEpisodio(String,int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Buscar info servicio",
+    "description": "",
+    "id": "buscar-info-servicio",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/HU001_ApiRest.feature",
+    "tags": []
+  }
+]

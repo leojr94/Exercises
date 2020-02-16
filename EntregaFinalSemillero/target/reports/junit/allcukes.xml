@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="61.561999">
+<testcase classname="Busqueda circuito" name="Busqueda circuito SILVERSTONE en pag Marca" time="61.561999">
+<system-out><![CDATA[Given Pagina web Marca......................................................passed
+When Se busca Gran Premio de Gran Bretana...................................passed
+Then Validar nombre circuito sea "SILVERSTONE"..............................passed
+]]></system-out>
+</testcase>
+</testsuite>
+27 de una BD.......................................................passed
+Then Valido "Pretoria"......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Calling code and capital" name="Validar capital 3" time="0.411628">
+<system-out><![CDATA[Given El 20 de una BD.......................................................passed
+Then Valido "Cairo".........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Calling code and capital" name="Validar calling code" time="0.364112">
+<system-out><![CDATA[Given El 2 de una BD........................................................passed
+Then Valido 2...............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Calling code and capital" name="Validar calling code 2" time="0.410772">
+<system-out><![CDATA[Given El 3 de una BD........................................................passed
+Then Valido 3...............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Calling code and capital" name="Validar calling code 3" time="0.38791">
+<system-out><![CDATA[Given El 4 de una BD........................................................passed
+Then Valido 4...............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Calling code and capital" name="Validar calling code 4" time="0.406898">
+<failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;200&gt;.&#10;&#13;&#10;&#9;at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)&#13;&#10;&#9;at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)&#13;&#10;&#9;at net.serenitybdd.screenplay.Actor.should(Actor.java:244)&#13;&#10;&#9;at com.sophossolutions.www.stepdefinitionsapi.StepDefinitionsRestCountries.valido(StepDefinitionsRestCountries.java:41)&#13;&#10;&#9;at ✽.Valido 57(src/test/resources/features/HU001_RestCountries.feature:16)&#13;&#10;"><![CDATA[Given El 57 de una BD.......................................................passed
+Then Valido 57..............................................................failed
+
+StackTrace:
+java.lang.AssertionError: 1 expectation failed.
+Expected status code <404> but was <200>.
+
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:244)
+	at com.sophossolutions.www.stepdefinitionsapi.StepDefinitionsRestCountries.valido(StepDefinitionsRestCountries.java:41)
+	at ✽.Valido 57(src/test/resources/features/HU001_RestCountries.feature:16)
+]]></failure>
+</testcase>
+</testsuite>

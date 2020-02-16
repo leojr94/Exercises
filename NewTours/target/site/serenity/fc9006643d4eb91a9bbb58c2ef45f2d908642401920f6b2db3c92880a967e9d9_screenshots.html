@@ -1,0 +1,235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">NewTours</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="fa50bac41ee851e50e84b48796d144c3ae692aa3c384d790f38f78281d33d450.html">Entrar A Pagina Con Credenciales</a></span>
+                > <span class="truncate-60"><a
+                    href="fc9006643d4eb91a9bbb58c2ef45f2d908642401920f6b2db3c92880a967e9d9.html">Logear En pagina </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-02-2020 02:12</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Entrar A Pagina Con Credenciales </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Como automatizador de pruebas<br />
+necesito automatizar proceso de login<br />
+para probar pagina newtours
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Logear En pagina
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title="Given Necesito entrar a pagina con credenciales" width="1366"/>
+                <img src="331e6f9cd5cc4914f04206b793dbf8b629afa3d5062ba0eb6e40b8e075d11d3d.png" title="Given Necesito entrar a pagina con credenciales" width="1366"/>
+                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title="Luis opens the Inicio newtours" width="1366"/>
+                <img src="331e6f9cd5cc4914f04206b793dbf8b629afa3d5062ba0eb6e40b8e075d11d3d.png" title="Luis opens the Inicio newtours" width="1366"/>
+                <img src="e066ba8657b4bee1f620c268b85c6d3d9a969f96cdf5bb899b2013fcefadd7c6.png" title="When Campos Luis Ortega 300867 leor@gmail.com luise y asdfgh" width="1366"/>
+                <img src="9991dd8bf29b578cf200b1ed2a8f289b1c4c5b820f7702fb3d2bd95aad144ded.png" title="Luis clicks on Selecciona la opci&oacute;n para registrarse" width="1366"/>
+                <img src="9991dd8bf29b578cf200b1ed2a8f289b1c4c5b820f7702fb3d2bd95aad144ded.png" title="Luis enters 'Luis' into Campo First name" width="1366"/>
+                <img src="817efe049698541d6fc5f18ef62b704662d3655ee4d0bbc42764138ccedadc14.png" title="Luis enters 'Luis' into Campo First name" width="1366"/>
+                <img src="42e7ceaabb14466ca5bb2934671452aafd9c4e414127a9fde9efd20939ba5079.png" title="Luis enters 'Ortega' into Campo Last name" width="1366"/>
+                <img src="e52bb19df13996da31d4d59e718415fe990c7ecd7ac0ca3abdc95a87088a7dfd.png" title="Luis enters 'Ortega' into Campo Last name" width="1366"/>
+                <img src="2451d248d4301e643767f0994ba66fecd0e373d003ce03155921e57b58450bf4.png" title="Luis enters '300867' into Campo First name" width="1366"/>
+                <img src="4444bcf24f5500c7e43717308280d68c8504dd905547b69fb797bb6eefcba06d.png" title="Luis enters '300867' into Campo First name" width="1366"/>
+                <img src="b365904bf59a61c289d0f0b9504b7c9a708c83c5450823b73ba2aeb51b20bdce.png" title="Luis enters 'leor@gmail.com' into Campo First name" width="1366"/>
+                <img src="a0a48e4447cd16fda483ef2d0e79afe5cf10ae6ef0d772b59283a34b12238b48.png" title="Luis enters 'leor@gmail.com' into Campo First name" width="1366"/>
+                <img src="b42b74b810d0ff1058a7601374dd57492af2bbfbc4901565d5eecef3102c932f.png" title="Luis enters 'luise' into Campo usuario" width="1366"/>
+                <img src="b768d7ea898dc7e3811bec022fde9eb533d99db5d1d8a7b23a8875a5b6c0ec9b.png" title="Luis enters 'luise' into Campo usuario" width="1366"/>
+                <img src="4d21d8c79588e4982e73d82666f84ff98c9635c54dc762b8fa408f771a96adbc.png" title="Luis enters 'asdfgh' into Campo contrase&ntilde;a" width="1366"/>
+                <img src="eae7d528e57dd8a0d9526e653149446fa91dde5dfbfe5a2b8a58235dd108f872.png" title="Luis enters 'asdfgh' into Campo contrase&ntilde;a" width="1366"/>
+                <img src="a0fcd2f14d6e72994716efcf25af2fde4f45bbf9721f0442b506b2850a1b6549.png" title="Luis enters 'asdfgh' into Campo confirmar contrase&ntilde;a" width="1366"/>
+                <img src="c3bb25d711516a6640abbe281650f9c7616590555654c195fda1786b161cfcaf.png" title="Luis enters 'asdfgh' into Campo confirmar contrase&ntilde;a" width="1366"/>
+                <img src="444e5a770411ce983787420800adcf6f59c63be8bc3fd27464bfba6087d7af12.png" title="Luis clicks on Boton registrar" width="1366"/>
+                <img src="60caabcc5b5c39e30823e6fa8686e0e940e83082cf16f3911c09a4ddb6808b15.png" title="Luis clicks on Boton registrar" width="1366"/>
+                <img src="60caabcc5b5c39e30823e6fa8686e0e940e83082cf16f3911c09a4ddb6808b15.png" title="Luis clicks on Campo SIGN-ON" width="1366"/>
+                <img src="88f181852526b30db8ad8cae50292048fc21b82e7ba8b9e33651dc689c810ac1.png" title="Luis clicks on Campo SIGN-ON" width="1366"/>
+                <img src="88f181852526b30db8ad8cae50292048fc21b82e7ba8b9e33651dc689c810ac1.png" title="Luis enters 'luise' into Campo usuario" width="1366"/>
+                <img src="a3885697dfb5a234337e4252a547eb90f6c940bffce1408f6d5462507d7cfc70.png" title="Luis enters 'luise' into Campo usuario" width="1366"/>
+                <img src="686ee68e065cf2a1de255d2f13f211fc4ead1779733b46c8e1a0641b7efc3db2.png" title="Luis enters 'asdfgh' into Campo contrase&ntilde;a" width="1366"/>
+                <img src="73278d9f963970fae0c4635eebbaf173095a60360daa7dc44c540c16a0e1bea3.png" title="Luis enters 'asdfgh' into Campo contrase&ntilde;a" width="1366"/>
+                <img src="4f8daa0d29b6e27dfc6f66121a28f012429c63d4bc7484761fa6a1cb45ca75ec.png" title="Luis clicks on Bot&oacute;n para iniciar sesion" width="1366"/>
+                <img src="e066ba8657b4bee1f620c268b85c6d3d9a969f96cdf5bb899b2013fcefadd7c6.png" title="Luis clicks on Bot&oacute;n para iniciar sesion" width="1366"/>
+                <img src="e066ba8657b4bee1f620c268b85c6d3d9a969f96cdf5bb899b2013fcefadd7c6.png" title="Then estado log should be 'SIGN-OFF'" width="1366"/>
+                <img src="39c68ffed535b14b3ea1643e9c1d2d2958ff575b7149b9370af45fbdee78f32d.png" title="Then Cerrar sesion" width="1366"/>
+                <img src="39c68ffed535b14b3ea1643e9c1d2d2958ff575b7149b9370af45fbdee78f32d.png" title="Luis clicks on Label conectado o desconectado" width="1366"/>
+                <img src="39c68ffed535b14b3ea1643e9c1d2d2958ff575b7149b9370af45fbdee78f32d.png" title="Then estado log should be 'SIGN-ON': <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.9</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,253 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">DafitiRecargado</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="c9e6594b13b01678963e6bd9a33d6f55e03a5d2479f54d34889e4231950edc66.html">Registrar Usuario En Dafiti</a></span>
+                > <span class="truncate-60"><a
+                    href="5cfc8392a1bbfee166f34eca15d83e9a02bd34bad8fdc12686d8e52455f00d03.html">Registrar un usuario en Dafiti </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-02-2020 23:40</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Registrar Usuario En Dafiti </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Registrar un usuario en Dafiti
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title="Given Pagina dafiti" width="1366"/>
+                <img src="ce4eb58ed6c9d293c95bddd908a4437d2a0ac9e0871896cba0476a730a94ab91.png" title="Given Pagina dafiti" width="1366"/>
+                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title="Semillero opens the Inicio" width="1366"/>
+                <img src="89a6481537c3043a97186e78f3ee959c805804516c0e1de26201a9b1ad52c023.png" title="Semillero opens the Inicio" width="1366"/>
+                <img src="390b477253a4f563b09888de4db4f8189fa1867ee0e662990a0f6a6e2ecadbf8.png" title="When Registro de un usuario
+| email | contra | nombre | apellido | doc | dianac | mesnac |
+| luisenriquejunior114@gmail.com | asdfgh | JUNIOR | ORTEGA | 12345 | 01 | 07 |" width="1366"/>
+                <img src="3db8fcbd44fab843e038646975eb06c2d75ea1a037a5e74d37186ad9d875714d.png" title="When Registro de un usuario
+| email | contra | nombre | apellido | doc | dianac | mesnac |
+| luisenriquejunior114@gmail.com | asdfgh | JUNIOR | ORTEGA | 12345 | 01 | 07 |" width="1366"/>
+                <img src="6b8f92c6c1df5b1c9dcfc6e81515f2c2ca1488983ed191054bbb13faea7bc609.png" title="Semillero clicks on Opci&oacute;n para registrarse o entrar" width="1366"/>
+                <img src="d062f87921800d5f49464c195ba613f5bef8c31dee55dc95f8b74192c98dd072.png" title="Semillero clicks on Opci&oacute;n para registrarse o entrar" width="1366"/>
+                <img src="a41e2b55dd073a28a1b451911dbbcf54c7f1f5b370c320fe3fddf1be5e1c2a99.png" title="Semillero enters 'luisenriquejunior114@gmail.com' into Campo para el correo" width="1366"/>
+                <img src="509599fa2d96bd459e2f720e38ae0aec7d825caf6ea3143a01d714eeaee3bda2.png" title="Semillero enters 'luisenriquejunior114@gmail.com' into Campo para el correo" width="1366"/>
+                <img src="6613b1388171098177d0ff404b6bc02e3bac4ecb3152d6fafeaecee031e263dd.png" title="Semillero enters 'asdfgh' into Campo para contrase&ntilde;a" width="1366"/>
+                <img src="aac668c5b923949c5613c2c92e31689e20a3c9dff54c4e7a45a52559af59943e.png" title="Semillero enters 'asdfgh' into Campo para contrase&ntilde;a" width="1366"/>
+                <img src="4971efe099a2ca62f91a58f03514baa84a21a919a9b3352e04c9bbad1ae0d98a.png" title="Semillero enters 'asdfgh' into Campo confirmaci&oacute;n contrase&ntilde;a" width="1366"/>
+                <img src="f94aa7a4086246f32a8eea19eac169b10794e4a99c09f41ead8d398f8deba8b6.png" title="Semillero enters 'asdfgh' into Campo confirmaci&oacute;n contrase&ntilde;a" width="1366"/>
+                <img src="63fbea61921675e68afbb8d9006043c322467a6f3032e99fc8bdcf7b772e9333.png" title="Semillero enters 'JUNIOR' into Campo nombre" width="1366"/>
+                <img src="bbf1f67dd87d83e086fa5e981a26b7b20fc6b1904b5037e1a3ab272a70989785.png" title="Semillero enters 'JUNIOR' into Campo nombre" width="1366"/>
+                <img src="abf7f681cdf363f72161066d2ab27dd051ac7539c10c76b49801c3d4f199e016.png" title="Semillero enters 'ORTEGA' into Campo apellidos" width="1366"/>
+                <img src="26d904015e17cbe5c147d9c3f1ad1d9d077b9d8d7c8cea976cc53b1ed4062434.png" title="Semillero enters 'ORTEGA' into Campo apellidos" width="1366"/>
+                <img src="bc4be2576b8f22b83879174d4a0151f8a8e06025e680b84e5af2692ff7d0eb32.png" title="Semillero enters '12345' into Campo ID" width="1366"/>
+                <img src="d9b239cb285f30a8db178ee82f28b65d9e5890632052a43e0570f98012e0028c.png" title="Semillero enters '12345' into Campo ID" width="1366"/>
+                <img src="e09084624e828c85002b40777d254f676fb7a5b0cee593aa9b3905baf76f9cf2.png" title="Semillero enters '01' into Dia nacimiento" width="1366"/>
+                <img src="fb4d54657c0b88ae2258c837d4ef6a33884da83fd74aa0e8514cd2d4abba917b.png" title="Semillero enters '01' into Dia nacimiento" width="1366"/>
+                <img src="4cdd3e6b9471298badf9ca3a1cb32839bfa3abbe1786ec58d562a2b72c9a5176.png" title="Semillero enters '07' into Mes nacimiento" width="1366"/>
+                <img src="b444139b60955e672d606c6c640c6a3d1454387f368095e7c3f0c6f19cda3c09.png" title="Semillero enters '07' into Mes nacimiento" width="1366"/>
+                <img src="ec9161a0ba54af58d503e084653ce4d14d0981edf950ffd1f22f8be5cbc48346.png" title="Semillero clicks on A&ntilde;o nacimiento" width="1366"/>
+                <img src="f37b0383d420df36c6c50425a6fe7d146c4117d83f057052680869837ad07b0e.png" title="Semillero clicks on A&ntilde;o nacimiento" width="1366"/>
+                <img src="f37b0383d420df36c6c50425a6fe7d146c4117d83f057052680869837ad07b0e.png" title="Semillero types 'NUMPAD1' in A&ntilde;o nacimiento" width="1366"/>
+                <img src="b6d6598b9645b00230051d21214533a1396693430b48c07ae724c8b7abd915bb.png" title="Semillero types 'NUMPAD1' in A&ntilde;o nacimiento" width="1366"/>
+                <img src="b6d6598b9645b00230051d21214533a1396693430b48c07ae724c8b7abd915bb.png" title="Semillero types 'NUMPAD9' in A&ntilde;o nacimiento" width="1366"/>
+                <img src="b6d6598b9645b00230051d21214533a1396693430b48c07ae724c8b7abd915bb.png" title="Semillero types 'NUMPAD9' in A&ntilde;o nacimiento" width="1366"/>
+                <img src="b6d6598b9645b00230051d21214533a1396693430b48c07ae724c8b7abd915bb.png" title="Semillero types 'NUMPAD4' in A&ntilde;o nacimiento" width="1366"/>
+                <img src="2735577ac3e156005b71bd656b1f3733ea4d8734c5b4762267c0e737a907270c.png" title="Semillero types 'NUMPAD4' in A&ntilde;o nacimiento" width="1366"/>
+                <img src="2735577ac3e156005b71bd656b1f3733ea4d8734c5b4762267c0e737a907270c.png" title="Semillero types 'ENTER' in A&ntilde;o nacimiento" width="1366"/>
+                <img src="875d94ca232040b421b710020bae743dc11b11c9465512a5bc5852e22a6d5eb3.png" title="Semillero types 'ENTER' in A&ntilde;o nacimiento" width="1366"/>
+                <img src="875d94ca232040b421b710020bae743dc11b11c9465512a5bc5852e22a6d5eb3.png" title="Semillero clicks on Campo sexo" width="1366"/>
+                <img src="48963ac2a4353dd2399fa0e07cdfcc546caddcd6411609d9715d9c1d5411b57b.png" title="Semillero clicks on Campo sexo" width="1366"/>
+                <img src="48963ac2a4353dd2399fa0e07cdfcc546caddcd6411609d9715d9c1d5411b57b.png" title="Semillero types 'ARROW_DOWN' in Campo sexo" width="1366"/>
+                <img src="70d054efbf9b31addea2ebbbb0170f1c06a61d5459fe08f69dce19f8a1b19a22.png" title="Semillero types 'ARROW_DOWN' in Campo sexo" width="1366"/>
+                <img src="70d054efbf9b31addea2ebbbb0170f1c06a61d5459fe08f69dce19f8a1b19a22.png" title="Semillero types 'ARROW_DOWN' in Campo sexo" width="1366"/>
+                <img src="c13ad868ff4cdbb02ed9b6800b2b86b8cba06679d42c30b087095ed53a890961.png" title="Semillero types 'ARROW_DOWN' in Campo sexo" width="1366"/>
+                <img src="c13ad868ff4cdbb02ed9b6800b2b86b8cba06679d42c30b087095ed53a890961.png" title="Semillero types 'ENTER' in Campo sexo" width="1366"/>
+                <img src="c13ad868ff4cdbb02ed9b6800b2b86b8cba06679d42c30b087095ed53a890961.png" title="Semillero clicks on Bot&oacute;n enviar los datos" width="1366"/>
+                <img src="3db8fcbd44fab843e038646975eb06c2d75ea1a037a5e74d37186ad9d875714d.png" title="Semillero clicks on Bot&oacute;n enviar los datos" width="1366"/>
+                <img src="3db8fcbd44fab843e038646975eb06c2d75ea1a037a5e74d37186ad9d875714d.png" title="And Validado el registro" width="1366"/>
+                <img src="3db8fcbd44fab843e038646975eb06c2d75ea1a037a5e74d37186ad9d875714d.png" title="Then estado log should be 'HOLA, JUNIOR'" width="1366"/>
+                <img src="a41e2b55dd073a28a1b451911dbbcf54c7f1f5b370c320fe3fddf1be5e1c2a99.png" title="Then Validar cierre sesion" width="1366"/>
+                <img src="40d26778d380c39c2c4721e2106c0b3ddd72612f1aa399ccfb26abca9d899570.png" title="Semillero hovers over Opci&oacute;n para registrarse o entrar" width="1366"/>
+                <img src="40d26778d380c39c2c4721e2106c0b3ddd72612f1aa399ccfb26abca9d899570.png" title="Semillero clicks on Salir de la cuenta" width="1366"/>
+                <img src="d062f87921800d5f49464c195ba613f5bef8c31dee55dc95f8b74192c98dd072.png" title="Semillero clicks on Salir de la cuenta" width="1366"/>
+                <img src="a41e2b55dd073a28a1b451911dbbcf54c7f1f5b370c320fe3fddf1be5e1c2a99.png" title="Then estado log should be 'Registrate': <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.9</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,409 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10686535700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionsMarca.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Busqueda circuito SILVERSTONE en pag Marca",
+        "description": "",
+        "id": "busqueda-circuito;busqueda-circuito-silverstone-en-pag-marca",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6697704600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Pagina web Marca",
+            "match": {
+              "location": "StepDefinitionsMarca.paginaWebMarca()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 41851256100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Se busca Gran Premio de Gran Bretana",
+            "match": {
+              "location": "StepDefinitionsMarca.seBuscaGranPremioDeGranBretana()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1141682700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validar nombre circuito sea \"SILVERSTONE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SILVERSTONE",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitionsMarca.validarNombreCircuitoSea(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Busqueda circuito",
+    "description": "",
+    "id": "busqueda-circuito",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/HU002_Marca.feature",
+    "tags": []
+  }
+]ps": [
+          {
+            "result": {
+              "duration": 381616800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "El 27 de una BD",
+            "match": {
+              "arguments": [
+                {
+                  "val": "27",
+                  "offset": 3
+                }
+              ],
+              "location": "StepDefinitionsRestCountries.callingCode(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 86136400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Valido \"Pretoria\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pretoria",
+                  "offset": 8
+                }
+              ],
+              "location": "StepDefinitionsRestCountries.valido(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3231900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionsRestCountries.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Validar capital",
+        "description": "",
+        "id": "calling-code-and-capital;validar-capital;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 376491400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "El 20 de una BD",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 3
+                }
+              ],
+              "location": "StepDefinitionsRestCountries.callingCode(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23844100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Valido \"Cairo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cairo",
+                  "offset": 8
+                }
+              ],
+              "location": "StepDefinitionsRestCountries.valido(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2481600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionsRestCountries.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Validar calling code",
+        "description": "",
+        "id": "calling-code-and-capital;validar-calling-code;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 340323400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "El 2 de una BD",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 3
+                }
+              ],
+              "location": "StepDefinitionsRestCountries.callingCode(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10199800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Valido 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 7
+                }
+              ],
+              "location": "StepDefinitionsRestCountries.valido(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6309700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionsRestCountries.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Validar calling code",
+        "description": "",
+        "id": "calling-code-and-capital;validar-calling-code;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 388589500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "El 3 de una BD",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 3
+                }
+              ],
+              "location": "StepDefinitionsRestCountries.callingCode(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6007500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Valido 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 7
+                }
+              ],
+              "location": "StepDefinitionsRestCountries.valido(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3867100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionsRestCountries.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Validar calling code",
+        "description": "",
+        "id": "calling-code-and-capital;validar-calling-code;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 370504500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "El 4 de una BD",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 3
+                }
+              ],
+              "location": "StepDefinitionsRestCountries.callingCode(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5623800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Valido 4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 7
+                }
+              ],
+              "location": "StepDefinitionsRestCountries.valido(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3630500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionsRestCountries.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Validar calling code",
+        "description": "",
+        "id": "calling-code-and-capital;validar-calling-code;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 366199100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "El 57 de una BD",
+            "match": {
+              "arguments": [
+                {
+                  "val": "57",
+                  "offset": 3
+                }
+              ],
+              "location": "StepDefinitionsRestCountries.callingCode(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: 1 expectation failed.\nExpected status code \u003c404\u003e but was \u003c200\u003e.\n\r\n\tat net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)\r\n\tat net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)\r\n\tat net.serenitybdd.screenplay.Actor.should(Actor.java:244)\r\n\tat com.sophossolutions.www.stepdefinitionsapi.StepDefinitionsRestCountries.valido(StepDefinitionsRestCountries.java:41)\r\n\tat ✽.Valido 57(src/test/resources/features/HU001_RestCountries.feature:16)\r\n",
+              "duration": 26697400,
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "Valido 57",
+            "match": {
+              "arguments": [
+                {
+                  "val": "57",
+                  "offset": 7
+                }
+              ],
+              "location": "StepDefinitionsRestCountries.valido(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Calling code and capital",
+    "description": "",
+    "id": "calling-code-and-capital",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/HU001_RestCountries.feature",
+    "tags": []
+  }
+]

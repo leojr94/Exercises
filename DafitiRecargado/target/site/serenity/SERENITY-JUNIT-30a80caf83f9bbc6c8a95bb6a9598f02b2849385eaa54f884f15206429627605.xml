@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Noticia de El Tiempo" skipped="0" tests="1" time="0.69" timestamp="2020-02-07 09:49:54"><testcase name="Title of your scenario"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+co.com.eltiempo.www.stepdefinitionstiempo.StepDefinitionElTiempo.setUp(StepDefinitionElTiempo.java:26)&#13;
+cucumber.runner.UnskipableStep.executeStep(UnskipableStep.java:22)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)&#13;
+</system-err></testcase></testsuite>

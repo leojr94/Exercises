@@ -1,0 +1,96 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11036940400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionNewtours.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Logear En pagina",
+        "description": "",
+        "id": "entrar-a-pagina-con-credenciales;logear-en-pagina",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3697492500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Necesito entrar a pagina con credenciales",
+            "match": {
+              "location": "StepDefinitionNewtours.necesitoLogear()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17988346200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Campos Luis Ortega 300867 leor@gmail.com luise y asdfgh",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Luis",
+                  "offset": 7
+                },
+                {
+                  "val": "Ortega",
+                  "offset": 12
+                },
+                {
+                  "val": "300867",
+                  "offset": 19
+                },
+                {
+                  "val": "leor@gmail.com",
+                  "offset": 26
+                },
+                {
+                  "val": "luise",
+                  "offset": 41
+                },
+                {
+                  "val": "asdfgh",
+                  "offset": 49
+                }
+              ],
+              "location": "StepDefinitionNewtours.camposUserPass(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3725329300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Cerrar sesion",
+            "match": {
+              "location": "StepDefinitionNewtours.cerrarSesion()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Entrar a pagina con credenciales",
+    "description": "  Como automatizador de pruebas\n  necesito automatizar proceso de login \n  para probar pagina newtours",
+    "id": "entrar-a-pagina-con-credenciales",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/HU001_LoginNewtours.feature",
+    "tags": []
+  }
+]

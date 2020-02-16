@@ -1,0 +1,196 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2983200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionRestCountries.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Recuperar info",
+        "description": "",
+        "id": "recuperar-info-de-un-pais;recuperar-info;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 540091100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "El \"aus\" en una base datos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "aus",
+                  "offset": 4
+                }
+              ],
+              "location": "StepDefinitionRestCountries.codeBase(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 77439600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Valido \"Australia\" y \"Canberra\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Australia",
+                  "offset": 8
+                },
+                {
+                  "val": "Canberra",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinitionRestCountries.validoPaisCapital(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2057100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionRestCountries.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Recuperar info",
+        "description": "",
+        "id": "recuperar-info-de-un-pais;recuperar-info;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 414609600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "El \"arg\" en una base datos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arg",
+                  "offset": 4
+                }
+              ],
+              "location": "StepDefinitionRestCountries.codeBase(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 107999600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Valido \"Argentina\" y \"Buenos Aires\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Argentina",
+                  "offset": 8
+                },
+                {
+                  "val": "Buenos Aires",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinitionRestCountries.validoPaisCapital(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3081900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionRestCountries.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Recuperar info",
+        "description": "",
+        "id": "recuperar-info-de-un-pais;recuperar-info;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 397179900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "El \"fra\" en una base datos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "fra",
+                  "offset": 4
+                }
+              ],
+              "location": "StepDefinitionRestCountries.codeBase(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 65574300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Valido \"France\" y \"Paris\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "France",
+                  "offset": 8
+                },
+                {
+                  "val": "Paris",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinitionRestCountries.validoPaisCapital(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Recuperar info de un pais",
+    "description": "",
+    "id": "recuperar-info-de-un-pais",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/HU005_RestCountries.feature",
+    "tags": []
+  }
+]

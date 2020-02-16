@@ -1,0 +1,226 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Iniciar sesion en Dafiti",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4013610300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "He ingresado a la pagina Dafiti",
+            "match": {
+              "location": "StepDefinitionDafiti.irA()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13097184400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Iniciar sesion un usuario enrique.ortega@udea.edu.co y contrasena asdfgh",
+            "match": {
+              "arguments": [
+                {
+                  "val": "enrique.ortega@udea.edu.co",
+                  "offset": 26
+                },
+                {
+                  "val": "asdfgh",
+                  "offset": 66
+                }
+              ],
+              "location": "StepDefinitionDafiti.ingresar(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11613441700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionDafiti.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Agregar al carrito",
+        "description": "",
+        "id": "compra-articulo-en-dafiti;agregar-al-carrito",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13814663900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "He seleccionado articulo",
+            "match": {
+              "location": "StepDefinitionDafiti.seleccionarArticulo()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1092586600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verifico agregado al carrito",
+            "match": {
+              "location": "StepDefinitionDafiti.verificarCarrito()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4414952500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Cerrar sesion",
+            "match": {
+              "location": "StepDefinitionDafiti.cerrarSesion()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Compra Articulo en Dafiti",
+    "description": "",
+    "id": "compra-articulo-en-dafiti",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/HU001_EntrarDafiti.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Iniciar sesion en Dafiti",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3030538500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "He ingresado a la pagina Dafiti",
+            "match": {
+              "location": "StepDefinitionDafiti.irA()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9229492900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionDafiti.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Registrar un usuario en Dafiti",
+        "description": "",
+        "id": "registrar-usuario-en-dafiti;registrar-un-usuario-en-dafiti",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 26816864900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Registro de un usuario",
+            "match": {
+              "location": "StepDefinitionDafiti.registrar(String,String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "email",
+                  "contra",
+                  "nombre",
+                  "apellido",
+                  "doc",
+                  "dianac",
+                  "mesnac"
+                ]
+              },
+              {
+                "cells": [
+                  "luisenriquejunio@gmail.com",
+                  "asdfgh",
+                  "JUNIOR",
+                  "ORTEGA",
+                  "12345",
+                  "01",
+                  "07"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1723900400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Validado el registro",
+            "match": {
+              "location": "StepDefinitionDafiti.validarRegistro()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4319786900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Validar cierre sesion",
+            "match": {
+              "location": "StepDefinitionDafiti.validarCierre()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Registrar usuario en Dafiti",
+    "description": "",
+    "id": "registrar-usuario-en-dafiti",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/HU002_RegistrarUsuarioDafiti.feature",
+    "tags": []
+  }
+]

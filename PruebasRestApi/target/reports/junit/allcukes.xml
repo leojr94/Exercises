@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="9.357644">
+<testcase classname="Buscar info servicio" name="Recupera info servidor" time="8.607974">
+<system-out><![CDATA[Given El 1 en una base datos................................................passed
+Then Valido "A New Hope" y 4................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Buscar info servicio" name="Recupera info servidor 2" time="0.74967">
+<system-out><![CDATA[Given El 5 en una base datos................................................passed
+Then Valido "Attack of the Clones" y 2......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

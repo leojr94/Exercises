@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="100.119066">
+<testcase classname="Compra Articulo en Dafiti" name="Agregar al carrito" time="51.952508">
+<system-out><![CDATA[Given He ingresado a la pagina Dafiti.......................................passed
+Then Iniciar sesion un usuario enrique.ortega@udea.edu.co y contrasena asdfgh.passed
+Given He seleccionado articulo..............................................passed
+And Verifico agregado al carrito............................................passed
+Then Cerrar sesion..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Registrar usuario en Dafiti" name="Registrar un usuario en Dafiti" time="48.166558">
+<system-out><![CDATA[Given He ingresado a la pagina Dafiti.......................................passed
+Given Registro de un usuario................................................passed
+And Validado el registro....................................................passed
+Then Validar cierre sesion..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

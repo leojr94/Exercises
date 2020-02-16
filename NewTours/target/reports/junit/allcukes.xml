@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="38.384256">
+<testcase classname="Entrar a pagina con credenciales" name="Logear En pagina" time="38.384256">
+<system-out><![CDATA[Given Necesito entrar a pagina con credenciales.............................passed
+When Campos Luis Ortega 300867 leor@gmail.com luise y asdfgh................passed
+Then Cerrar sesion..........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

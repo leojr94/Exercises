@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Calling code and capital" skipped="0" tests="7" time="12.93" timestamp="2020-02-10 08:43:54"><testcase name="Validar capital"/><testcase name="Validar calling code"><failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;404&gt; but was &lt;200&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;404&gt; but was &lt;200&gt;.
+&#13;
+com.sophossolutions.www.stepdefinitionsapi.StepDefinitionsRestCountries.valido(StepDefinitionsRestCountries.java:41)&#13;
+✽.Valido 57(src/test/resources/features/HU001_RestCountries.feature:16)&#13;
+</system-err></testcase></testsuite>
